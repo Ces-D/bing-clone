@@ -21,9 +21,8 @@ export default function Home() {
           <SearchBar />
           <Carrot />
         </div>
-        <div className="sticky top-12 sm:top-16">
-          <Floor />
-        </div>
+        <Floor />
+        <div className="h-screen"></div>
         <div className="h-screen"></div>
       </Container>
     </>
