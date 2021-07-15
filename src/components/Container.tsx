@@ -5,9 +5,5 @@ type Props = {
 };
 
 export default function Container({ children }: Props) {
-  return (
-    <div className="bg-gray-900 h-full text-white">
-      <div className="container mx-auto">{children}</div>
-    </div>
-  );
+  return <div className="bg-gray-900 w-full h-screen text-white">{children}</div>;
 }

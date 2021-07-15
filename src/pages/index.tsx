@@ -14,7 +14,7 @@ export default function Home() {
       </Head>
       <Container>
         <Banner />
-        <div className="my-20">
+        <div className="my-20 sm:mt-36">
           <MicrosoftLogo />
         </div>
         <div className="sticky top-1 sm:top-6">
@@ -22,8 +22,6 @@ export default function Home() {
           <Carrot />
         </div>
         <Floor />
-        <div className="h-screen"></div>
-        <div className="h-screen"></div>
       </Container>
     </>
   );

@@ -64,11 +64,11 @@ export default function Carrot() {
         >
           ^
         </button>
-        <div className={linkDisplay ? "absolute top-6" : "hidden"}>
+        <div className={linkDisplay ? "absolute top-20" : "hidden"}>
           <QuickLink />
         </div>
       </div>
     ),
-    [display]
+    [display, linkDisplay]
   );
 }
